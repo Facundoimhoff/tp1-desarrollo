@@ -8,6 +8,7 @@
 
 
     <head>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="CSS/tp1 CSS.css"> <!-- ENLACE AL CSS -->
 
         <title>TP DESARROLLO DE SOFTWARE</title> <!-- TITULO DE LA PAGINA -->
@@ -16,23 +17,46 @@
 
 
 
-    <body>
+    <body >
 
 
-        <div class="divnombre">
+
+
+        <header>
+            
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#experiencia">Experiencia Laboral</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+
+
+            <div class="divnombre">
 
             <img src="../TP1 DESARROLLO/IMAGENES/ISRAEL GONZALEZ.webp">
             <h1>ISRAEL GONZALEZ</h1> 
             <h3>Desarrollador Web</h3>
         </div>
+
+        </header>
          
+
+
+
+
+
+        <main>
 
 
         <p>Soy un desarrollador web apasionado por crear soluciones prácticas y modernas. Me gusta trabajar tanto en equipo como de forma independiente, siempre buscando aprender nuevas tecnologías y mejorar mis habilidades en cada proyecto.</p>
 
 
 
-        <div class="habilidades">
+        <div class="habilidades" id="habilidades">
             <h3>Habilidades</h3> <!-- HABLIDADES-->
             <ul>
                 <li>HTML5</li>
@@ -44,7 +68,7 @@
         </div>
 
 
-        <div class="experiencia">
+        <div class="experiencia" id="experiencia">
             <h3>Experiencia Laboral</h3> <!-- EXPERIENCIA LABORAL-->
             <ul>
                 <li>Desarrollador Web Junior – Tech Solutions (2020 - 2022)</li>
@@ -54,7 +78,7 @@
 
 
 
-        <div class="Proyectos">
+        <div class="Proyectos" id="proyectos">
             <h3>Proyectos Destacados</h3> <!-- PROYECTOS DESTACADOS-->
 
         <img src="../TP1 DESARROLLO/IMAGENES/SHOPWAVE LOGO.png" >
@@ -66,7 +90,14 @@
        
         </div>
 
+        </main>
 
+
+
+
+
+
+        <footer>
 
         <div class="RedesSociales">
             <h3>ENLACES A REDES SOCIALES:</h3> <!-- ENLACES A REDES SOCIALES-->
@@ -82,19 +113,27 @@
 
 
 
-        <div class="FormularioContacto">
-            <h3>FORMULARIO DE CONTACTO</h3> <!-- FORMULARIOS DE CONTACTO-->
-        
-            <a href="israel.gonzalez@gmail.com">Enviar correo electrónico</a>
-            <a href="tel:+1234567890">Llamar por teléfono</a>
-            <a href="https://www.linkedin.com/in/israel-gonzalez">LinkedIn</a>
-            <a href="whatsapp://send?phone=+1234567890">Enviar mensaje por WhatsApp</a>
+    <form class="FormularioContacto" id="contacto">
+
+    <h3>FORMULARIO DE CONTACTO</h3>
+
+    <label for="nombre">Nombre:</label>
+    <input type="text" name="nombre" id="nombre" placeholder="Nombre" required>
+
+    <label for="apellido">Apellido:</label>
+    <input type="text" name="apellido" id="apellido" placeholder="Apellido" required>
+
+    
+    <label for="Telefono">Teléfono:</label>
+    <input type="number" name="Telefono" id="Telefono" placeholder="Teléfono" required>
+    
+    <input type="submit" value="Enviar datos">
+
+    </form>
             
-        
-        </div>
-
-
+        </footer>
 
     </body> 
+
 
 </html>
