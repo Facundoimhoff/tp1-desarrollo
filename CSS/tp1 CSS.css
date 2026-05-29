@@ -1,201 +1,208 @@
 body {
-                font-family: 'Roboto', Arial, sans-serif;
-                margin: 20px;
-                background-color: #F1F5F9;
-            }
+    font-family: 'Roboto', Arial, sans-serif;
+    margin: 0;
+    background-color: #97aabd;
+}
 
-            h1 {
-                color: #333;
-                text-align: left;
-            }
+h1 {
+    color: #333;
+    text-align: left;
+}
 
-            h2, h3, h4 {
-                color: #555;
-            }
+h2, h3, h4 {
+    color: #555;
+}
 
-            ul, ol {
-                margin-left: 20px;
-            }
+ul, ol {
+    margin-left: 20px;
+}
 
-            a {
-                color: #007BFF;
-                text-decoration: none;
-            }
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
 
-            a:hover {
-                text-decoration: underline;
-            }
+a:hover {
+    text-decoration: underline;
+}
 
-            .divnombre{
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                margin-top: 60px;
-            }
+.divnombre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+}
 
-            .divnombre h1 {
-                margin: 10px 0 5px 0;
-            }
+.divnombre h1 {
+    margin: 10px 0 5px 0;
+}
 
-            .divnombre h3 {
-                margin: 0;
+.divnombre h3 {
+    margin: 0;
+}
 
-            }
+.divnombre img {
+    margin-bottom: 10px;
+    width: 250px;
+    height: 180px;
+    border-radius: 10px;
+}
 
-            img {
-                border-radius: 0%;
-                margin-right: 10px;
-                
-                margin-bottom: 10px;
-                max-width: 90%;
-                height: 180px;
-                width: 300px;
-            }
+.habilidades {
+    background-color: #333;
+    border-radius: 10px;
+    padding: 20px;
+    height: 100%;
+    color: white;
+}
 
-            .habilidades {
-                float: left;
-                width: 50%;
-                box-sizing: border-box;
-                padding: 10px;
-            }
+.habilidades h3 {
+    background-color: rgb(119, 119, 119);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin: 0 0 10px 0;
+    border-radius: 5px;
+}
 
-            .habilidades h3 {
-                background-color: blue;
-                color: white;
-                text-align: center;
-                padding: 10px;
-                margin: 0 0 10px 0;
-            }
+.experiencia {
+    background-color: #333;
+    border-radius: 10px;
+    padding: 20px;
+    height: 100%;
+    color: white;
+}
 
-            .experiencia {
-                float: right;
-                width: 50%;
-                box-sizing: border-box;
-                padding: 10px;
-                
-            }
+.experiencia h3 {
+    background-color: rgb(119, 119, 119);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin: 0 0 10px 0;
+    border-radius: 5px;
+}
 
-            
-            .experiencia h3 {
-                background-color: blue;
-                color: white;
-                text-align: center;
-                padding: 10px;
-                margin: 0 0 10px 0;
-            }
+.Proyectos {
+    margin-top: 20px;
+}
 
-            .Proyectos {
-                clear: both;
-                margin-top: 20px;
-            }
+.Proyectos h3 {
+    background-color: rgb(119, 119, 119);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin: 0 0 10px 0;
+    border-radius: 5px;
+}
 
-            .Proyectos h3 {
-                background-color: blue;
-                color: white;
-                text-align: center;
-                padding: 10px;
-                margin: 0 0 10px 0;
-            }
+p {
+    color: #000000;
+    text-align: center;
+    margin: 30px auto;
+    max-width: 900px;
+}
 
-            p{
-                color: #666;
-                margin: 30px 400px 30px 10px;
-                text-align: justify;
-            }
+.imagenProyecto {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+    transition: 0.3s;
+}
 
-            .Proyectos img {
-                width: 200px;
-                height: auto;
-                margin-top: 20px;
-                margin-left: 200px;
-            }
+.imagenProyecto:hover {
+    transform: scale(1.05);
+}
 
-            .Proyectos p {
-                display: flex;  
-                margin-top: 10px;
-            }
+.RedesSociales {
+    margin-top: 20px;
+    background-color: #2d2d2d;
+    padding: 30px;
+    border-radius: 10px;
+    color: white;
+}
 
-            .RedesSociales {
-                float: right;
-                width: 50%;
-                box-sizing: border-box;
-                padding: 10px;
-                
-            }
+.RedesSociales h3 {
+    background-color: rgb(119, 119, 119);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin: 0 0 20px 0;
+    border-radius: 5px;
+}
 
-            
-            .RedesSociales h3 {
-                background-color: blue;
-                color: white;
-                text-align: center;
-                padding: 10px;
-                margin: 30px 0 10px 0;
-            }
+.botonRedSocial {
+    display: block;
+    background-color: #72787e;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    transition: 0.3s;
+    margin-top: 10px;
+    border-radius: 30px;
+}
 
-            .FormularioContacto {
-                float: left;
-                width: 50%;
-                box-sizing: border-box;
-                padding: 10px;
-                
-            }
+.botonRedSocial:hover {
+    background-color: #383c40;
+    color: white;
+    text-decoration: none;
+}
 
-            
-            .FormularioContacto h3 {
-                background-color: blue;
-                color: white;
-                text-align: center;
-                padding: 10px;
-                margin: 30px 0 10px 0;
-            }
-            
-            .FormularioContacto a {
-                display: block;
-                margin-bottom: 20px; 
-                color: #000;
-            }
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
 
-            .RedesSociales a {
-                display: block;
-                margin-bottom: 20px; 
-                color: #000;
-            }
+nav {
+    background-color: #333;
+    padding: 10px;
+}
 
-            nav ul {
-                list-style-type: none;
-                padding: 0;
-                display: flex;
-                gap: 20px;
-                justify-content: center;
-            }
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+}
 
-            nav {
-            background-color: #333;
-            padding: 10px;
-        }
+nav a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
 
-        nav a {
-            color: white;
-            text-decoration: none;
-            padding: 10px;
-            display: block;
-        }
+.FormularioContacto {
+    margin-top: 30px;
+    background-color: #2d2d2d;
+    padding: 30px;
+    border-radius: 10px;
+    color: white;
+}
 
-        nav a:hover {
-            background-color: #555;
-            border-radius: 5px;
-        }
+.FormularioContacto h3 {
+    background-color: rgb(119, 119, 119);
+    color: white;
+    text-align: center;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
 
+.FormularioContacto label {
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    display: block;
+}
 
-        .FormularioContacto label {
-            display: flex;
-            margin-top: 10px;
-            flex-direction: column;
-        }
+.FormularioContacto input {
+    width: 100%;
+    padding: 12px;
+    border-radius: 20px;
+    border: none;
+    margin-bottom: 15px;
+}
 
-        .FormularioContacto input {
-            display: flex;
-            padding: 6px;
-            margin-top: 10px;
-
-        }
